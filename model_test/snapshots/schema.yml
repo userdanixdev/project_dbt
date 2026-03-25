@@ -1,0 +1,46 @@
+version: 2
+
+snapshots:
+  - name: dim_guitars_snap
+    description: "{{ doc('dim_guitars_snap') }}"
+
+    columns:
+      - name: gtr_sk
+        description: "Hash/chave derivada do registro"
+
+      - name: gtr_sk_1
+        description: "Identificador estável da guitarra"
+        tests:
+          - not_null
+
+      - name: marca
+        description: "Marca da guitarra"
+
+      - name: modelo
+        description: "Modelo da guitarra"
+
+      - name: pais_fabricacao
+        description: "País de fabricação"
+
+      - name: ponte
+        description: "Tipo de ponte"
+
+      - name: cordas
+        description: "Quantidade de cordas"
+
+      - name: captadores
+        description: "Configuração de captadores"
+
+      - name: dbt_valid_from
+        description: "Início da vigência do registro"
+        tests:
+          - not_null
+
+      - name: dbt_valid_to
+        description: "Fim da vigência do registro"
+
+      - name: dbt_scd_id
+        description: "Identificador interno de versão do snapshot"
+
+      - name: dbt_updated_at
+        description: "Momento em que o dbt detectou a mudança"

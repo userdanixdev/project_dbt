@@ -1,0 +1,51 @@
+id,marca,modelo,pais_fabricacao,preco_usd,ponte,cordas,captadores
+1,Fender,Stratocaster,USA,1800,Tremolo,6,SSS
+2,Fender,Telecaster,USA,1700,Fixa,6,SS
+3,Gibson,Les Paul Standard,USA,2500,Fixa,6,HH
+4,Gibson,SG Standard,USA,2000,Fixa,6,HH
+5,Ibanez,RG550,Japan,1500,Floyd Rose,6,HSH
+6,Ibanez,RG350,Indonesia,500,Floyd Rose,6,HSH
+7,Ibanez,AZ2402,Japan,2000,Tremolo,6,HSS
+8,Jackson,Soloist SL2,USA,2200,Floyd Rose,6,HH
+9,Jackson,Dinky JS32,China,400,Floyd Rose,6,HH
+10,Jackson,Rhoads RR,Indonesia,700,Floyd Rose,6,HH
+11,PRS,Custom 24,USA,3500,Tremolo,6,HH
+12,PRS,SE Custom 24,Korea,900,Tremolo,6,HH
+13,ESP,Horizon,Japan,2800,Floyd Rose,6,HH
+14,LTD,EC-1000,Korea,1100,Fixa,6,HH
+15,Tagima,TG-530,Brazil,300,Tremolo,6,SSS
+16,Tagima,TW-61,Brazil,350,Fixa,6,SS
+17,Giannini,Stratosonic,Brazil,250,Tremolo,6,SSS
+18,Giannini,Les Paul,Brazil,280,Fixa,6,HH
+19,Seizi,Vision,Brazil,600,Fixa,7,HH
+20,Squier,Stratocaster,China,250,Tremolo,6,SSS
+21,Squier,Telecaster,Indonesia,300,Fixa,6,SS
+22,Yamaha,Pacifica 112,Indonesia,350,Tremolo,6,HSS
+23,Yamaha,Revstar,Japan,1200,Fixa,6,HH
+24,Schecter,Hellraiser,Korea,1000,Floyd Rose,7,HH
+25,Schecter,Omen Extreme,Indonesia,500,Fixa,6,HH
+26,Cort,X100,Indonesia,300,Floyd Rose,6,HSH
+27,Cort,KX500,Indonesia,700,Fixa,6,HH
+28,Dean,ML Select,USA,1800,Floyd Rose,6,HH
+29,Dean,VMNT,China,600,Fixa,6,HH
+30,Gretsch,G2622,China,700,Fixa,6,HH
+31,Gretsch,G5420T,Japan,1200,Tremolo,6,HH
+32,Ibanez,RGD71,Indonesia,800,Floyd Rose,7,HH
+33,Jackson,Juggernaut,USA,2500,Fixa,6,HH
+34,ESP,LTD M-1000,Korea,1200,Floyd Rose,6,HH
+35,PRS,SE Mark Holcomb,Indonesia,1100,Fixa,7,HH
+36,Fender,Player Strat,Mexico,800,Tremolo,6,SSS
+37,Fender,Player Tele,Mexico,750,Fixa,6,SS
+38,Gibson,Les Paul Studio,USA,1600,Fixa,6,HH
+39,Yamaha,RGX,Alemanha,900,Floyd Rose,6,HH
+40,Tagima,JA-1,Brazil,400,Tremolo,6,HSS
+41,Seizi,Stone,Brazil,650,Fixa,6,HH
+42,Giannini,GGX,Brazil,300,Floyd Rose,6,HSH
+43,Schecter,C-7 Deluxe,Indonesia,600,Fixa,7,HH
+44,Ibanez,S Series,Indonesia,700,Tremolo,6,HSH
+45,Jackson,King V,Japan,1400,Floyd Rose,6,HH
+46,ESP,E-II Eclipse,Japan,3000,Fixa,6,HH
+47,LTD,EC-256,China,500,Fixa,6,HH
+48,Cort,G280 Select,Indonesia,800,Tremolo,6,HSS
+49,Yamaha,Pacifica 611,Indonesia,700,Tremolo,6,HSS
+50,Squier,Affinity Strat,China,200,Tremolo,6,SSS

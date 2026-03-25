@@ -1,0 +1,28 @@
+version: 2
+models: 
+  - name: carros
+    description: "Tabela de veículos contendoo informações de marca,modelo, ano e potência."
+    columns:
+      - name: id
+        description: "identificador de carro único"
+        data_tests:
+          - unique
+          - not_null
+      - name: marca
+        description: "Marca do veículo"
+        data_tests:
+          - not_null                
+      - name: modelo
+        description: "Modelo do veículo"
+        data_tests:
+          - not_null
+
+      - name: ano
+        description: "Ano de fabricação do veículo"
+        data_tests:
+          - not_null
+
+      - name: potencia
+        description: "Potência do motor em cavalos (HP)"
+        data_tests:
+          - not_null      

@@ -1,0 +1,63 @@
+version: 2
+
+models:
+  - name: dim_guitars
+    description: "{{ doc('project_overview') }}"
+    columns:
+      - name: gtr_sk
+        description: "Identificador único da guitarra. Chave substituta da dimensão."
+        tests:
+          - unique
+          - not_null
+
+      - name: gtr_sk_1
+        description: "Identificador natural da guitarra vindo da base original."
+        tests:
+          - not_null          
+
+      - name: marca
+        description: "Marca da guitarra."
+        tests:
+          - not_null
+
+      - name: modelo
+        description: "Modelo da guitarra."
+        tests:
+          - not_null
+
+      - name: pais_fabricacao
+        description: "País de fabricação da guitarra."
+        tests:
+          - not_null
+
+      - name: ponte
+        description: "Tipo de ponte da guitarra."
+        tests:
+          - not_null
+
+      - name: cordas
+        description: "Quantidade de cordas da guitarra."
+        tests:
+          - not_null
+
+      - name: captadores
+        description: "Configuração dos captadores da guitarra."
+        tests:
+          - not_null
+
+  - name: fct_guitars
+    description: "Tabela fato com a métrica de preço das guitarras."
+    columns:
+      - name: guitarra_id
+        description: "Identificador da guitarra, chave de ligação com a dimensão."
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_guitars')
+                field: gtr_sk_1
+                
+      - name: preco_usd
+        description: "Preço da guitarra em dólares."
+        tests:
+          - not_null

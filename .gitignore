@@ -1,0 +1,44 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# dbt
+# =========================
+target/
+dbt_packages/
+logs/
+*.log
+
+# =========================
+# DuckDB
+# =========================
+#*.duckdb
+#*.db
+
+# =========================
+# OS / Editor
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
