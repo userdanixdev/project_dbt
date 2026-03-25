@@ -14,7 +14,7 @@ dbt_packages/
 logs/
 
 # DuckDB
-*.duckdb
+#.duckdb
 
 # VSCode
 .vscode/
