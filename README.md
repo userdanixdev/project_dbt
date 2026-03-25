@@ -1,3 +1,13 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![dbt](https://img.shields.io/badge/dbt-Analytics%20Engineering-orange?logo=dbt)
+![DuckDB](https://img.shields.io/badge/DuckDB-Database-yellow?logo=duckdb)
+![Git](https://img.shields.io/badge/Git-Version%20Control-red?logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
+
 #  Projeto dbt com DuckDB : Modelagem Dimensional, Snapshots (SCD Type 2) e Testes de Qualidade
 ## 📌 Visão Geral
 
