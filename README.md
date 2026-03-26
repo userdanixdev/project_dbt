@@ -1,4 +1,4 @@
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![dbt](https://img.shields.io/badge/dbt-Analytics%20Engineering-orange?logo=dbt)
 ![DuckDB](https://img.shields.io/badge/DuckDB-Database-yellow?logo=duckdb)
 ![Git](https://img.shields.io/badge/Git-Version%20Control-red?logo=git)
@@ -41,7 +41,7 @@ Fato (fct_guitars)
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## 🗂️ Estrutura do Projeto Simplificada
 
 ```text
 models/
@@ -57,7 +57,16 @@ seeds/
 snapshots/
   └── dim_guitars_snap.sql
 
-target/
+queries_SQL/
+  ├── consulta_dim_guitars_snap.py
+  ├── consulta_dim_guitars_update_snap.py
+  ├── consulta_dim_guitars.py
+  ├── consulta_join_dim_fact_guitars.py
+  ├── consulta_view_fct_guitars.py
+  ├── consulta_cars.py
+  ├── consultas_guitars.py
+  └── update_dim_guitars.py
+
 ```
 
 ---
@@ -199,7 +208,7 @@ dbt docs serve
 
 ### 🌐 Acessar no navegador:
 ```
-Após executar o comando acima, abra:
+Após executar o comando acima, abrirá automaticamente:
 
 http://localhost:8080
 ```
