@@ -41,7 +41,7 @@ Fato (fct_guitars)
 
 ---
 
-## 🗂️ Estrutura do Projeto Simplificada
+## 🗂️ Estrutura do Projeto:
 
 ```text
 models/
@@ -282,3 +282,7 @@ Esses scripts funcionam como uma camada de validação e exploração, permitind
 
 *Projeto desenvolvido por **Daniel M.F.** com foco em aprendizado e aplicação prática de engenharia de dados moderna.*
 
+
+🔗 Conecte-se comigo no LinkedIn:  
+
+👉 https://www.linkedin.com/in/danixdev
