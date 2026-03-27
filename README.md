@@ -270,7 +270,7 @@ Esses scripts funcionam como uma camada de validação e exploração, permitind
 
 ## 🔮 Possíveis Evoluções
 
-* Integração com ferramentas de BI (Power BI, Metabase)
+* Integração com ferramentas de BI (Power BI, Metabase, Looker)
 * Criação de dashboards analíticos
 * Implementação de camadas (staging, intermediate, mart)
 * Orquestração com Airflow ou similar
